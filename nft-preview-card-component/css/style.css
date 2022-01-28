@@ -91,6 +91,21 @@ hr {
   color: hsl(178, 100%, 50%);
 }
 
+footer p {
+  font-size: 8pt;
+  text-align: center;
+  padding-bottom: 1%;
+}
+
+footer p a {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+}
+
+footer p a:hover {
+  color: hsl(178, 100%, 50%);
+}
+
 @media only screen and (min-width: 1440px) {
   body {
     margin: 0;
@@ -187,5 +202,14 @@ hr {
   footer p {
     font-size: 8pt;
     text-align: center;
+  }
+
+  footer p a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+  }
+
+  footer p a:hover {
+    color: hsl(178, 100%, 50%);
   }
 }
